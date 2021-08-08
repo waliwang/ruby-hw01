@@ -1,0 +1,4 @@
+names = ["eddie","jonne","john","sherry"]
+names.each.with_index do |name,x|
+    puts "#{x} #{name}"
+end
